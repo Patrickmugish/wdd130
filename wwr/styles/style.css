@@ -70,7 +70,6 @@ nav a:hover {
 /* Add a background-color value to .msg */
 .msg {
     background-color: rgba(48, 54, 43, 0.7);
-    box-sizing: border-box;
     margin: 30px 0px;
   }
   
