@@ -50,6 +50,7 @@ main section img {
 
 /* Add a background-color value to body */
 body {
+  display: grid;
   background-color: white;
   font-family: Arial;
   font-size: 22px;
@@ -283,6 +284,34 @@ footer .about {
   grid-column: 6/10; /* Span from column lines 6 to 10 */
   grid-row: 6/7; /* Span from row lines 6 to 7 */
   }
+
+  .rivers1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1f 1fr;
+    grid-gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+
+.title {
+  text-align: center;
+}
+
+.subtitle {
+  
+  padding-bottom: 50px;
+  
+}
+
+.photo1-box  {
+  padding-bottom: 60px;
+  grid-column: 1/3;
+  grid-row: 1/3;
+  width: 100px;
+}
+
+
 
 
 
