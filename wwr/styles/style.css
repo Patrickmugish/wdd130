@@ -285,21 +285,45 @@ footer .about {
   grid-row: 6/7; /* Span from row lines 6 to 7 */
   }
 
-  .rivers1 {
+  #rivers1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1f 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 20px;
-    justify-content: space-around;
-    align-items: center;
+    align-content: center;
+    
+  }
+
+
+  #rivers2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1f 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #rivers3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1f 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    position: relative;
+    justify-content: center;
+    align-content: center;
   }
   
 
 .title {
   text-align: center;
+  margin: 100px;
 }
 
 .name1 {
   text-align: center;
+  
+
 }
 
 .name2 {
@@ -317,10 +341,23 @@ footer .about {
 }
 
 .photo1-box  {
-  padding-bottom: 60px;
+  position: absolute;
+  padding-top: 50px;
   grid-column: 1/3;
   grid-row: 1/3;
-  width: 100px;
+}
+
+#para {
+  position: absolute; 
+  z-index: -1;
+  color: #6f7364;
+  height: 100px;
+  margin: 100px;
+  font-size: 30px;
+  margin: 100px 500px;
+  grid-column: 3/4;
+  grid-row: 2/3;
+
 }
 
 
