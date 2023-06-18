@@ -298,10 +298,22 @@ footer .about {
   text-align: center;
 }
 
+.name1 {
+  text-align: center;
+}
+
+.name2 {
+  text-align: center;
+}
+
+.name3 {
+  text-align: center;
+}
+
 .subtitle {
   
   padding-bottom: 50px;
-  
+  text-align: center;
 }
 
 .photo1-box  {
