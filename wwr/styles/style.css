@@ -256,6 +256,7 @@ footer .about {
 
 .photo {
   width: 800px;
+  border: 10px solid rgb(211, 166, 149);
 }
 
 .paragraph1 {
@@ -277,6 +278,8 @@ footer .about {
 
 .photo2 {
   width: 800px;
+  border: 10px solid rgb(211, 166, 149);
+  height: 500px;
 }
 
 .paragraph2 {
@@ -287,8 +290,8 @@ footer .about {
 
 .container3 {
   display: flex;
-  margin-left: 600px;
-  margin-right: 600px;
+  margin-left: 26em;
+  margin-right: 26em;
   margin-top: 100px;
   text-align: center;
 }
@@ -300,6 +303,8 @@ footer .about {
 
 .photo3 {
   width: 800px;
+  border: 10px solid rgb(211, 166, 149);
+
 }
 
 .paragraph3 {
