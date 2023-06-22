@@ -243,6 +243,9 @@ footer .about {
     margin: 50px;
     margin-top: 100px;
   }
+  .title {
+    color:rgb(177, 138, 124)
+  }
 
 .rivers1 {
   text-align: center;
@@ -255,7 +258,8 @@ footer .about {
 }
 
 .photo {
-  width: 800px;
+  width: 500px;
+  height: 500px;
   border: 10px solid rgb(211, 166, 149);
 }
 
@@ -266,8 +270,7 @@ footer .about {
 
 .container2 {
   display: flex;
-  margin-left: 26em;
-  margin-right: 26em;
+  margin: 50px;
   margin-top: 100px;
 }
 
@@ -277,21 +280,20 @@ footer .about {
 }
 
 .photo2 {
-  width: 800px;
+  width: 500px;
   border: 10px solid rgb(211, 166, 149);
-  height: 500px;
+  height: 400px;
 }
 
 .paragraph2 {
   margin-left: 50px;
-  font-size: 27px;
+  font-size: 25px;
 }
 
 
 .container3 {
   display: flex;
-  margin-left: 26em;
-  margin-right: 26em;
+  margin: 50px;
   margin-top: 100px;
   text-align: center;
 }
@@ -302,23 +304,16 @@ footer .about {
 }
 
 .photo3 {
-  width: 800px;
+  width: 500px;
   border: 10px solid rgb(211, 166, 149);
 
 }
 
 .paragraph3 {
   margin-left: 50px;
-  font-size: 27px;
+  font-size: 25px;
 }
 
-
-.flex {
-  margin-left: 545px;
-  margin-right: 545px;
-  
-  
-}
 
   @media screen and (max-width: 900px) {
     #hero, .home-grid {
