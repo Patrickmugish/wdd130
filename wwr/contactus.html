@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>My test page</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dry Oar Boating / Contact Us </title>
+    <link rel="stylesheet" href="styles/style.css">
+
     <style>
       form {
   /* Center the form on the page */
@@ -85,10 +88,35 @@ button {
 .moveDown {
     margin-top: 3em;
 }
+
+.copy1 {
+  padding: 20px;
+}
+
+.copy2 {
+  padding: 20px;
+}
+
+.copy3 {
+  padding: 20px;
+}
     
     </style>
   </head>
   <body>
+    <!--Adding a container for our entire page-->
+    <div id="content">
+      <header>
+          <a id="logo_link" href="index.html"> 
+              <img class="logo" src="images/dryoarlogo3.png" alt="Dry Oar Logo">
+          </a>
+          <nav>
+              <a href="index.html">Home</a>
+              <a href="rivers.html">Rivers</a>
+              <a href="site-plan-rafting.html">Site Plan</a>
+              <a href="contactus.html">Contact Us</a>
+          </nav>
+      </header>
     <div id="feedback"></div>
     <form action="/my-handling-form-page" method="post">
       <ul>
@@ -109,7 +137,24 @@ button {
         </li>
       </ul>
     </form>
-    <p>This is my page</p>
+
+    <footer>
+      <p class="copy1">Dry Oar © 20XX - MUGISHA PATRICK</p>
+      <p class="copy1"><a href="site-plan-rafting.html">Site Plan</a></p>
+      <p class="copy2"><a href="contactus.html">Contact Us</a></p>
+       
+      <div class="social">
+          <a href="https://facebook.com" target="_blank">
+              <img src="images/facebook.png" alt="fb icon">
+          </a>
+          <a href="https://twitter.com" target="_blank">
+              <img src="images/twitter.png" alt="twitter icon">
+          </a>
+          <a href="https://instagram.com" target="_blank">
+              <img src="images/instagram.png" alt="instagram icon">
+          </a>
+      </div>
+  </footer>
     <script>
       // get the feedback div element so we can do something with it.
       const feedbackElement = document.getElementById('feedback');
