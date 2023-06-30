@@ -1,0 +1,34 @@
+/*This CSS file will provide the styles for every page of my website.*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+/*Setting width and centering*/
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    padding: 35px;
+    }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+
+
+
+
+.logo{
+    width: 500px;
+    height: 300px;
+}
+
+.gorilla2 {
+    width: 500px;
+    height: 300px;
+}
