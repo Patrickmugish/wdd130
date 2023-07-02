@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 /*Setting width and centering*/
 #content {
-  max-width: 1800px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -100,7 +100,7 @@ nav {
   grid-column: 1/5;
   grid-row: 1/2; 
   background-color: #012e18;
-  height: 500px;
+  height: 700px;
   
   }
 
@@ -137,4 +137,5 @@ footer a:hover {
     }    
   footer p a:hover {
     text-decoration: underline;
-    }  
+    } 
+    
