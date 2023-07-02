@@ -313,9 +313,9 @@ footer .about {
   margin-left: 50px;
   font-size: 25px;
 }
-
-
+ 
   @media screen and (max-width: 900px) {
+
     #hero, .home-grid {
         display: block;
         height: auto;
