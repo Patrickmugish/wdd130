@@ -121,8 +121,8 @@ nav {
 
 #cover1 {
   display: grid;
-  grid-template-columns: (5, 1fr);
-  grid-template-rows: (5, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
 }
 
 #cover-box1 {
@@ -140,8 +140,8 @@ nav {
 
 .home-grid1 {
   display: grid;
-  grid-template-columns: (6, 1fr);
-  grid-template-rows: (6, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
   background-color: #012e18;
   margin-top: 100px;
 }
