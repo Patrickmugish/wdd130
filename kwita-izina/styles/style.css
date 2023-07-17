@@ -113,6 +113,56 @@ nav {
   margin-top: 15px;
 }
 
+
+.gorilla3{
+  width: 100%;
+  margin-top: 100px;
+}
+
+#cover1 {
+  display: grid;
+  grid-template-columns: (5, 1fr);
+  grid-template-rows: (5, 1fr);
+}
+
+#cover-box1 {
+  grid-column: 1/4;
+  grid-row: 1/4;
+}
+
+.cover-msg1 {
+  grid-column: 1/4;
+  grid-row: 2/4;
+  margin: 22px;
+  font-size: 20px;
+  color:#000000;
+}
+
+.home-grid1 {
+  display: grid;
+  grid-template-columns: (6, 1fr);
+  grid-template-rows: (6, 1fr);
+  background-color: #012e18;
+  margin-top: 100px;
+}
+
+.outfit {
+  width: 80%;
+  height: 80%;
+  grid-row: 3/5;
+  grid-column: 1/4;
+
+}
+
+.msg {
+  grid-row: 2/4;
+  grid-column: 2/5;
+  font-size: 22px;
+  margin-left: 300px;
+  margin-top: 50px;
+  color:#000000;
+}
+
   footer {
     background-color: #3fa34d;
     padding: 25px 50px;
